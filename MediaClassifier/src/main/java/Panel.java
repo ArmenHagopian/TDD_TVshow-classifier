@@ -100,7 +100,7 @@ public class Panel extends JPanel{
              *      By clicking on the start button you initiate the organising and classifying methods.
              */
             public void actionPerformed(ActionEvent event) {
-                //lancer l'organisation
+                //launch the organization
                 Path sourceDirectory = Paths.get(startPath.getText());
 
                 List<EpisodeInfo> episodes = null;
